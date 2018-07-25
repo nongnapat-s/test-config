@@ -65,7 +65,7 @@
         </style>
     </head>
     <body>
-    <form action="/get-data" method = "GET">
+    <form action="{{ url('/get-data')}}" method = "GET">
         <button>Get Data</button>
     </form>
     </body>
