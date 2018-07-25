@@ -21,3 +21,7 @@ Route::get('/get-data',function(){
 });
 
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
+Route::get('/test',function(){
+    return "test route";
+});
